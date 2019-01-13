@@ -7,10 +7,3 @@ def delay(func):
         sleep(3)
         return func(*args)
     return wrapper
-
-
-# @delay
-# def check(string):
-#     return string
-#
-# print(check("fefefef"))
